@@ -1,4 +1,4 @@
-# Triangle Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Triangle Calculator Widget for WordPress
 
 The triangle calculator finds all triangle measurements – side lengths, triangle angles, area, perimeter, semiperimeter, heights, medians, inradius, and circumradius.
 
