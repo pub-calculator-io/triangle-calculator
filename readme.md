@@ -7,7 +7,7 @@ The triangle calculator finds all triangle measurements – side lengths, triang
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/triangle-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /triangle-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Triangle Calculator](https://www.calculator.io/triangle-calculator/ "Triangle Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
