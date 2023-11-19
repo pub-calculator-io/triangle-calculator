@@ -1,4 +1,4 @@
-=== Triangle Calculator by www.calculator.io ===
+=== CI Triangle calculator ===
 Contributors: calculatorio
 Tags: triangle calculator, right triangle, oblique triangle, Pythagorean theorem, law of sines, triangle area calculation, angle measurement, side lengths, internal angles, vertex calculation
 Requires at least: 5.0

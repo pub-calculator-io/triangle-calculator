@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Triangle Calculator by www.calculator.io
+Plugin Name: CI Triangle calculator
 Plugin URI: https://www.calculator.io/triangle-calculator/
 Description: The triangle calculator finds all triangle measurements – side lengths, triangle angles, area, perimeter, semiperimeter, heights, medians, inradius, and circumradius.
 Version: 1.0.0
