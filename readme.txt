@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Triangle Calcul
 == Screenshots ==
 
 1. The Triangle Calculator Input Form.
-2. The Triangle Calculator Calculation Results.
 
 == Installation ==
 

@@ -3,7 +3,6 @@
 The triangle calculator finds all triangle measurements – side lengths, triangle angles, area, perimeter, semiperimeter, heights, medians, inradius, and circumradius.
 
 ![Triangle Calculator Input Form](/assets/images/screenshot-1.png "Triangle Calculator Input Form")
-![Triangle Calculator Calculation Results](/assets/images/screenshot-2.png "Triangle Calculator Calculation Results")
 
 ## Installation
 

@@ -42,7 +42,7 @@
                 </svg>
                 	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col triangle-calculator,area-calculator,right-triangle-calculator,pythagorean-theorem-calculator  ">
                 			<p class="input__title">A</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="angle_a" value=""  />
@@ -50,7 +50,7 @@
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col triangle-calculator,area-calculator,right-triangle-calculator,pythagorean-theorem-calculator  ">
                 			<p class="input__title">B</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="angle_b" value=""  />
@@ -58,7 +58,7 @@
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col triangle-calculator,area-calculator,right-triangle-calculator,pythagorean-theorem-calculator  ">
                 			<p class="input__title">C</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="angle_c" value=""  />
@@ -68,21 +68,21 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col triangle-calculator,area-calculator,right-triangle-calculator,pythagorean-theorem-calculator  ">
                 			<p class="input__title">a</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="side_a" value="5"  />
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col triangle-calculator,area-calculator,right-triangle-calculator,pythagorean-theorem-calculator  ">
                 			<p class="input__title">b</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="side_b" value="5"  />
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col triangle-calculator,area-calculator,right-triangle-calculator,pythagorean-theorem-calculator  ">
                 			<p class="input__title">c</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="side_c" value="5"  />
@@ -97,13 +97,16 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
+                	<script type="text/javascript" src="./assets/js/lib/math.min.js" async></script>
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -118,8 +121,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<div class="result-table__wrapper"> 
 		<table class="result-table">
@@ -128,7 +130,7 @@
 					<th class="dark indigo" colspan="4" id="result_type">EQUILATERAL ACUTE TRIANGLE</th>
 				</tr>
 			</thead>
-			<tbody>
+			<tbody class="animate">
 				<tr>
 					<th>Side a</th>
 					<td id="result_a">5</td>

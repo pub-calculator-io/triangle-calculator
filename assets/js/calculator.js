@@ -10,7 +10,7 @@ function calculate(){
   let C = getAngle('angle_c');
   input.silent = false;
   if(A&&B&&C || [a,b,c,A,B,C].reduce((count,item)=>item?count+1:count,0) != 3){
-    input.error([],"Please provide only 3 positive values, including at least one side");
+    input.error([],"Provide only 3 positive values, including at least one side");
   }
   if(A&&B&&(A+B>=180) || B&&C&&(B+C>=180) || A&&C&&(A+C>=180)){
     input.error(['angle_a','angle_b','angle_c'],"The sum of the two angles must be less than 180° or π radians");
