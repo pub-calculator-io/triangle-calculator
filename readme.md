@@ -1,6 +1,6 @@
 # Triangle Calculator Widget for WordPress
 
-The triangle calculator finds all triangle measurements – side lengths, triangle angles, area, perimeter, semiperimeter, heights, medians, inradius, and circumradius.
+Calculate side lengths, angles, area, and perimeter instantly with our free Triangle Calculator. Solve right or oblique triangles easily and accurately.
 
 ![Triangle Calculator Input Form](/assets/images/screenshot-1.png "Triangle Calculator Input Form")
 
@@ -11,8 +11,8 @@ The triangle calculator finds all triangle measurements – side lengths, triang
 3. Activate the [Triangle Calculator](https://www.calculator.io/triangle-calculator/ "Triangle Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_triangle_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_triangle_calculator(); ?>` to your template where you would like the Triangle Calculator to appear.
+* Add the shortcode `[calcio_triangle_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_triangle_calculator(); ?>` to your template where you would like the Triangle Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
